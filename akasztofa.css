@@ -1,0 +1,46 @@
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+    text-align: center;
+}
+
+#alphabetCol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letterDiv {
+    border: 1px solid black;
+    width: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.letterDiv:hover {
+    cursor: pointer;
+}
+
+#gameLettersDivCol {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 3rem;
+}
+
+#hangPicture{
+    height: 400px;
+    text-align: center;
+}
+
+#gameButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
